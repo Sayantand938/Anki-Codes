@@ -93,7 +93,7 @@ def get_openai_explanation(question, options, correct_option_index, valid_tags, 
       4: {options[3]}
     Correct Answer: {correct_answer}
 
-    Choose the single best tag from the given tag list for this Question and output the tag in this format: {{Tag}}
+    Choose the single best tag from the given tag list for this Question and output the tag in this format: {{}}
 
     Tag List:
     {valid_tags}

@@ -53,7 +53,7 @@ def get_openai_explanation(question, options, correct_option_index):
       4: {options[3]}
     Correct Answer: {correct_answer}
 
-    Summarize the reasoning behind the correct answer in a compact and clear explanation. Give output in simple text format.
+    Summarize the reasoning behind the correct answer in a compact and clear explanation. Give output in this format : {{}}.
     """
 
     try:
